@@ -1,7 +1,7 @@
 # vue pdf插件
 
 > 关于vue pdf插件的使用，
-> 关于怎么用就看App.vue文件
+> 关于怎么用就看App.vue文件，如果觉得对你有帮助，就给个star吧~
 
 ## Build Setup
 
