@@ -1,13 +1,9 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-
-
-
-   <div>
+  <div>
 		<pdf
-		
-			:src="src"
+		  :src="src"
 			:page="num"
 			style="display: inline-block; width: 50%"
 		></pdf>
@@ -55,7 +51,6 @@ export default {
 	mounted() {
 
 		this.src.then(pdf => {
-     
       this.numPages = pdf.numPages;
        console.log(pdf.numPages);
 		});
